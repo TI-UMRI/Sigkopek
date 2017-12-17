@@ -1,0 +1,181 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:layout_marginTop="55dp">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/buttonPem"
+            android:scaleType="fitCenter"
+            android:background="@color/color1"/>
+
+        <TextView
+            android:id="@+id/pemt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PEMERINTAH"
+            android:textStyle="bold"
+            android:textColor="@color/WHITE"
+            android:textAppearance="?android:attr/textAppearanceSmallPopupMenu"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="bottom"/>
+
+        <ImageView
+            android:id="@+id/pem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/gov"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:id="@+id/buttonPend"
+            android:background="@color/color2"/>
+
+        <TextView
+            android:id="@+id/pendt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PENDIDIKAN"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/WHITE"
+            android:textAppearance="?android:attr/textAppearanceSmallPopupMenu"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_gravity="bottom"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/sekolah"
+            android:layout_gravity="center"
+            android:id="@+id/pend" />
+
+    </FrameLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:background="@color/Green"/>
+
+            <TextView
+                android:id="@+id/katt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KATEGORI"
+                android:textColor="@color/WHITE"
+                android:textStyle="bold"
+                android:textSize="50dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:layout_margin="5dp"
+                android:layout_gravity="bottom"/>
+
+        </FrameLayout>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:id="@+id/buttonKes"
+            android:background="@color/color4"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/kest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KESEHATAN"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/WHITE"
+            android:textAppearance="?android:attr/textAppearanceSmallPopupMenu"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_gravity="bottom"/>
+        <ImageView
+            android:id="@+id/kes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/kesehatan"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/kesehatan">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:background="@color/color5"
+            android:id="@+id/buttonFasum"/>
+        <TextView
+            android:id="@+id/fasumt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FASILITAS UMUM"
+            android:textStyle="bold"
+            android:textColor="@color/WHITE"
+            android:textAppearance="?android:attr/textAppearanceSmallPopupMenu"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"
+            android:textAlignment="center"
+            android:layout_gravity="bottom"/>
+        <ImageView
+            android:id="@+id/fas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/fasum"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/hasiljenis"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dip"
+            android:textColor = "@color/BLACK"
+            android:cacheColorHint="@color/BLACK"
+            android:textSize="14dp"
+            />
+        <TextView
+            android:id="@+id/hasilnama"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dip"
+            android:textColor = "@color/BLACK"
+            android:cacheColorHint="@color/BLACK"
+            android:textSize="14dp"
+            />
+        <TextView
+            android:id="@+id/hasilalamat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dip"
+            android:textColor = "@color/BLACK"
+            android:cacheColorHint="@color/BLACK"
+            android:textSize="14dp"
+            />
+        <TextView
+            android:id="@+id/hasillat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dip"
+            android:textColor = "@color/BLACK"
+            android:cacheColorHint="@color/BLACK"
+            android:textSize="14dp"
+            />
+        <TextView
+            android:id="@+id/hasillng"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dip"
+            android:textColor = "@color/BLACK"
+            android:cacheColorHint="@color/BLACK"
+            android:textSize="14dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

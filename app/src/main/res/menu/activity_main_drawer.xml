@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/BLACK">
+
+   <!-- <group android:checkableBehavior="single">-->
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="Halaman Depan" />
+        <item
+            android:id="@+id/kategori"
+            android:icon="@drawable/ic_category"
+            android:title="Kategori" />
+        <item
+            android:id="@+id/maps"
+            android:icon="@drawable/ic_place"
+            android:title="Maps" />
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/ic_action_search"
+            android:title="Pencarian" />
+    <!--</group>-->
+
+        <item
+            android:id="@+id/pegaduan"
+            android:icon="@drawable/ic_chat_bubble"
+            android:title="Pengaduan" />
+ </menu>
