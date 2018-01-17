@@ -44,7 +44,7 @@ public class Data_Sekolah extends AppCompatActivity {
 
 
         listView = (ListView)findViewById(R.id.listView1);
-        new JSONTask().execute("http://sipkopas.pasuruankota.go.id/json/datasekolah.php");
+        new JSONTask().execute("http://sigkopek.pekanbarukota.go.id/json/datasekolah.php");
       //  new JSONTask().execute("http://192.168.1.15/Data/datasekolah.php");
 
     }

@@ -62,7 +62,7 @@ public class MapsActivity2 extends FragmentActivity implements OnMapReadyCallbac
 
        new  ArrayList<HashMap<String, String>>();
       //  String url = "http://sipkopas.pasuruankota.go.id/json/LatPetakel.php";
-        String url = "http://sipkopas.pasuruankota.go.id/json/datapetakel.php";
+        String url = "http://sigkopek.pekanbarukota.go.id/json/datapetakel.php";
 
 
         try {

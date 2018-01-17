@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import id.iwanbazz.dev.sigkopek.MapsActivity2;
+import id.iwanbazz.dev.sigkopek.MapsActivity;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -27,7 +28,7 @@ public class GmapFragment extends Fragment {
 
        // View view = inflater.inflate(R.layout.activity_maps,  null);
 
-       Intent intent = new Intent(getActivity(), MapsActivity2.class);
+       Intent intent = new Intent(getActivity(), MapsActivity.class);
         getActivity().startActivity(intent);
 
 

@@ -50,7 +50,7 @@ public class Data_Kelurahan extends AppCompatActivity {
 
         listView = (ListView)findViewById(R.id.listView1);
 
-        new JSONTask().execute("http://sipkopas.pasuruankota.go.id/json/datapetakel.php");
+        new JSONTask().execute("http://sigkopek.pekanbarukota.go.id/json/datapetakel.php");
     }
     public  class JSONTask extends AsyncTask<String, String, List<ModelData>> {
         List<ModelData> Listdata1 = new ArrayList<>();

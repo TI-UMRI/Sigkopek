@@ -8,7 +8,7 @@
             android:icon="@drawable/ic_home"
             android:title="Halaman Depan" />
         <item
-            android:id="@+id/kategori"
+            android:id="@+id/sub_pemerintahan"
             android:icon="@drawable/ic_category"
             android:title="Kategori" />
         <item
@@ -21,8 +21,5 @@
             android:title="Pencarian" />
     <!--</group>-->
 
-        <item
-            android:id="@+id/pegaduan"
-            android:icon="@drawable/ic_chat_bubble"
-            android:title="Pengaduan" />
+
  </menu>

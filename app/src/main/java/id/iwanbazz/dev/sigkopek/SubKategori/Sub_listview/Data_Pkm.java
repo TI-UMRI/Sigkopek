@@ -48,7 +48,7 @@ public class Data_Pkm extends AppCompatActivity {
 
 
         listView = (ListView)findViewById(R.id.listView1);
-        new JSONTask().execute("http://sipkopas.pasuruankota.go.id/json/datapkm.php");
+        new JSONTask().execute("http://sigkopek.pekanbarukota.go.id/json/datapkm.php");
        // new JSONTask().execute("http://192.168.1.15/Data/datapetapkm.php");
 
     }

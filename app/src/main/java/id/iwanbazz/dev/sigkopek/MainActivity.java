@@ -1,5 +1,6 @@
 package id.iwanbazz.dev.sigkopek;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -18,6 +19,8 @@ import id.iwanbazz.dev.sigkopek.Fragment.HomeFragment;
 import id.iwanbazz.dev.sigkopek.Fragment.KategoriFragment;
 import id.iwanbazz.dev.sigkopek.Fragment.PencarianFragment;
 import id.iwanbazz.dev.sigkopek.Fragment.PengaduanFragment;
+import id.iwanbazz.dev.sigkopek.SubKategori.SubPemerintahan;
+
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -99,8 +102,9 @@ public class MainActivity extends AppCompatActivity
             case R.id.home :
                 fragment = new HomeFragment();
                 break;
-            case R.id.kategori:
-                fragment = new KategoriFragment();
+            case R.id.sub_pemerintahan:
+                Intent in = new Intent(getApplicationContext(), SubPemerintahan.class);
+                startActivity(in);
                 break;
             case R.id.maps:
                 fragment = new GmapFragment();
@@ -109,8 +113,8 @@ public class MainActivity extends AppCompatActivity
                 fragment = new PencarianFragment();
 
                 break;
-            case R.id.pegaduan:
-                fragment = new PengaduanFragment();
+            //case R.id.pegaduan:
+                //fragment = new PengaduanFragment();
                 //Intent in = new Intent(getApplicationContext(), Pengaduan.class);
                 //startActivity(in);
         }
